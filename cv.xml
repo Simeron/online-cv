@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cv>
+	<personal-info>
+	  <fname>Simeron</fname>
+	  <lname>Taak</lname>
+	  <email>simeron03@icloud.com</email>
+	  <contact>07501351982</contact>
+	</personal-info>
+
+	<bio>
+		<info>
+			I have a background in design and have a good knowledge of HTML and CSS. I'm a creative in the design and web industry. I love a challenge. I have experience working as a freelancer while at university, working on internal and external prjects. As a designer I have created company branding, stationary, and physical products. As a web designers I have created various websites in Photoshop. I have also developed websites using CMS systems such as wordpress and used the editor to make additonal changes to meet clients purposes. During various projects I have worked a lot in UX and UI exploring consumer interactions and mocking up various wireframes to using tools such as invision. 
+		</info>
+	</bio>
+
+	<education>
+		<university>Ravensbourne University</university>
+		<course>Web Media</course>
+		<grade>2:1</grade>
+	</education>
+
+	<awards>
+		<notminations>Nominated for an outstanding award in all aspects of design</notminations>
+		<won>Best Design CV</won>
+	</awards>
+
+	<experience>
+		<jobs>
+			<job1>
+				<job-title>Sparta Global Consultant</job-title>
+				<job-description>
+					I am currently working as a consultant at Sparta Global. I have started training, and hope to learn lots of new things about development and coding. 
+				</job-description>
+				<skills>SKILLS USED: HTML . CSS . XML . GIT . JavaScript</skills>
+			</job1>
+
+			<job2>
+				<job-title>Saffron Care Homes Freelancer</job-title>
+				<job-description>
+					Created brochures displaying the company’s care homes, this was made using Photoshop and Indesign. I’ve carried out user testing and redesigned and built there company website where I had to access the back-end of the website to edited their code to fulfil the customer’s needs.
+				</job-description>
+				<skills>
+					SKILLS USED: InDesign . Photoshop . UX Skills . Wireframing . HTML . CSS
+				</skills>
+			</job2>
+
+			<job3>
+				<job-title>AMO CARE Freelancer</job-title>
+				<job-description>
+					I have designed and created the branding and stationary for the company such as their logo this was made in Photo- shop and Illustrator. I worked with them again to create their website, which I made paper wireframes and mock ups for them to visually see the placement of each feature on the website. I then designed the rest of the website and built in WordPress where I used basic theme and used the back-end editor to further customise the website to the desired look and feel.
+				</job-description>
+				<skills>
+					SKILLS USED: Branding . Photoshop . Illustrator . WordPress . HTML . CSS . UX Skills . Wireframing
+				</skills>
+			</job3>
+		</jobs>
+	</experience>
+</cv>
