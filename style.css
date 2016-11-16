@@ -12,9 +12,12 @@ section, #personalInformation, footer{
 
 /*end of postion primary sections content*/
 
+/*nav bar css*/
 nav{
     text-align: right;
+    margin-top: 1.5%;
 }
+/*end of nav bar css*/
 
 
 p, a{
