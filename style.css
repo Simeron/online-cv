@@ -19,15 +19,24 @@ nav{
 }
 /*end of nav bar css*/
 
+h1, h3, .jobTitle{
+    font-family: 'Glegoo', serif;
+}
 
-p, a{
-    font-family: "Courier New", Courier, monospace;
+p, li{
+    font-family: 'Raleway', sans-serif;
 }
 
 a{
     color: #706881;
+    font-family: 'Glegoo', serif;
 }
 
 a:hover { 
     background-color:#00ffff;
 }
+
+
+font-family: 'Glegoo', serif;
+font-family: 'Reem Kufi', sans-serif;
+font-family: 'Raleway', sans-serif;
