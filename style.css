@@ -1,3 +1,30 @@
+
+/*positioning of primary sections content*/
 body{
-    background-color: hotpink;
+    width: 80%;
+    margin: auto;
+}
+
+section, #personalInformation, footer{
+    width: 80%;
+    margin: auto;
+}
+
+/*end of postion primary sections content*/
+
+nav{
+    text-align: right;
+}
+
+
+p, a{
+    font-family: "Courier New", Courier, monospace;
+}
+
+a{
+    color: #706881;
+}
+
+a:hover { 
+    background-color:#00ffff;
 }
