@@ -1,7 +1,11 @@
-
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
 /*positioning of primary sections content*/
 .mainContent{
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
@@ -30,11 +34,16 @@
 /*nav bar css*/
 nav{
     text-align: right;
-    margin-top: 1.5%;
+    /*margin-top: 1.5%;*/
     position: fixed;
     width: 100%;
     z-index: 1;
     background-color: whitesmoke;
+    padding: 1%;
+}
+
+nav ul li:nth-child(7) a {
+    border-right: none;    
 }
 
 .logo{
@@ -92,6 +101,14 @@ footer img{
     display: inline-block;
     width: 24.5%;
     background-color: purple;
+}
+
+#banner {
+    width: 100%;
+    display: block;
+    position: relative;
+    left: 0;
+    overflow: hidden;
 }
 
 /*start of the media query*/
