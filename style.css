@@ -5,7 +5,7 @@
     margin: auto;
 }*/
 
-section, #personalInformation, footer{
+ footer{
     width: 80%;
     margin: auto;
 }
@@ -16,6 +16,10 @@ section, #personalInformation, footer{
 nav{
     text-align: right;
     margin-top: 1.5%;
+}
+
+.logo{
+    float: left;
 }
 /*end of nav bar css*/
 
