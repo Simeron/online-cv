@@ -111,6 +111,9 @@ footer img{
     overflow: hidden;
 }
 
+.contactForm{
+    text-align: center;
+}
 /*start of the media query*/
 
 @media screen and (max-width: 780px) {
