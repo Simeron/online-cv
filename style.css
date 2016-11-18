@@ -79,3 +79,9 @@ img{
     width: 24.5%;
     display: inline-block; 
 }
+
+.icon{
+    display: inline-block;
+    width: 24.5%;
+    background-color: purple;
+}
