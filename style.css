@@ -1,9 +1,9 @@
 
 /*positioning of primary sections content*/
-body{
+/*body{
     width: 80%;
     margin: auto;
-}
+}*/
 
 section, #personalInformation, footer{
     width: 80%;
@@ -37,7 +37,6 @@ a:hover {
     background-color:#00ffff;
 }
 
-
-font-family: 'Glegoo', serif;
-font-family: 'Reem Kufi', sans-serif;
-font-family: 'Raleway', sans-serif;
+img{
+    width: 100%;
+}
