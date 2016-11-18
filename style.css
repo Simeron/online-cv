@@ -21,6 +21,7 @@
     width: 49%;
     text-align: justify;
     display: inline-block;
+    box-sizing: border-box;
 }
 
 /*end of div positioning*/
@@ -62,6 +63,19 @@ a:hover {
 
 /*end of text css*/
 
+/*image css*/
 img{
     width: 100%;
+}
+
+#skills img{
+    width: 10%;
+}
+
+/*end of image css*/
+
+.project{
+    background-color: hotpink; 
+    width: 24.5%;
+    display: inline-block; 
 }
