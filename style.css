@@ -73,6 +73,9 @@ img{
     width: 10%;
 }
 
+footer img{
+    width: 25px;
+}
 /*end of image css*/
 
 .project{
@@ -85,4 +88,10 @@ img{
     display: inline-block;
     width: 24.5%;
     background-color: purple;
+}
+
+@media screen and (max-width: 780px) {
+    body {
+        background-color: lightgreen;
+    }
 }
