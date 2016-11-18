@@ -46,7 +46,7 @@ nav ul li:nth-child(7) a {
     border-right: none;    
 }
 
-.logo{
+#logo{
     float: left;
 }
 /*end of nav bar css*/
@@ -130,6 +130,14 @@ footer img{
 
     .icon, .project{
         width: 100%;
+    }
+
+    #logo{
+        display: none;
+    }
+    nav{
+        float: left;
+        text-align: center;
     }
 }
 
