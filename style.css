@@ -31,6 +31,10 @@
 nav{
     text-align: right;
     margin-top: 1.5%;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: whitesmoke;
 }
 
 .logo{
@@ -90,8 +94,26 @@ footer img{
     background-color: purple;
 }
 
+/*start of the media query*/
+
 @media screen and (max-width: 780px) {
     body {
         background-color: lightgreen;
     }
+
+    .icon, .project{
+        width: 49%;
+    }
 }
+
+@media screen and (max-width: 580px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    .icon, .project{
+        width: 100%;
+    }
+}
+
+/*end of media query*/
