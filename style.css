@@ -1,7 +1,5 @@
 
 /*positioning of primary sections content*/
-
-
 .mainContent{
     width: 80%;
     margin: auto;
@@ -16,8 +14,16 @@
     width: 80%;
     margin: auto;
 }
-
 /*end of postion primary sections content*/
+
+/*div positioning */
+#about, #aboutImage{
+    width: 49%;
+    text-align: justify;
+    display: inline-block;
+}
+
+/*end of div positioning*/
 
 /*nav bar css*/
 nav{
@@ -30,6 +36,8 @@ nav{
 }
 /*end of nav bar css*/
 
+/*text css*/
+
 h1, h3, .jobTitle{
     font-family: 'Glegoo', serif;
 }
@@ -37,6 +45,8 @@ h1, h3, .jobTitle{
 p, li, form{
     font-family: 'Raleway', sans-serif;
 }
+
+/*text links css*/
 
 a{
     color: #706881;
@@ -47,6 +57,10 @@ a{
 a:hover { 
     background-color:#00ffff;
 }
+
+/*end of text links css*/
+
+/*end of text css*/
 
 img{
     width: 100%;
