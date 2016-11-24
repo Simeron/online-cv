@@ -114,6 +114,11 @@ footer img{
 .contactForm{
     text-align: center;
 }
+
+#skills ul li{
+    list-style: none;
+    display: inline;
+}
 /*start of the media query*/
 
 @media screen and (max-width: 780px) {
