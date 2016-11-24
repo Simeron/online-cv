@@ -14,10 +14,9 @@
     margin: auto;
 }
 
-.content {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
+.parallax-container {
+      height: 500px;
+    }
 
  footer{
     width: 80%;
@@ -56,10 +55,6 @@ nav ul li:nth-child(7) a {
 /*end of nav bar css*/
 
 
-   .parallax-container {
-      height: 500px;
-    }
-
 /*text css*/
 
 h1, h3, .jobTitle{
@@ -97,6 +92,7 @@ a:hover {
 .images{
     width: 10%;
     border-radius: 50%;
+    display: inline;
 }
 
 footer img{
