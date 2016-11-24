@@ -64,7 +64,9 @@ h1, h3, .jobTitle{
 
 p, li, form{
     font-family: 'Raleway', sans-serif;
+    padding: 1%;
 }
+
 
 /*text links css*/
 
