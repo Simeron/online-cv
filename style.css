@@ -84,6 +84,7 @@ img{
 
 #skills img{
     width: 10%;
+    border-radius: 50%;
 }
 
 footer img{
