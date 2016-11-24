@@ -51,6 +51,11 @@ nav ul li:nth-child(7) a {
 }
 /*end of nav bar css*/
 
+
+   .parallax-container {
+      height: 500px;
+    }
+
 /*text css*/
 
 h1, h3, .jobTitle{
