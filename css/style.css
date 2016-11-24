@@ -16,7 +16,11 @@
 
 .parallax-container {
       height: 500px;
-    }
+}
+
+.grey{
+    background: grey;
+}
 
  footer{
     width: 80%;
