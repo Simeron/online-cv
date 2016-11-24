@@ -14,6 +14,11 @@
     margin: auto;
 }
 
+.content {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
  footer{
     width: 80%;
     margin: auto;
@@ -84,11 +89,12 @@ a:hover {
 /*end of text css*/
 
 /*image css*/
-img{
-    width: 100%;
-}
 
-#skills img{
+/*img{
+    width: 100%;
+}*/
+
+.images{
     width: 10%;
     border-radius: 50%;
 }
