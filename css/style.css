@@ -64,7 +64,7 @@ nav ul li:nth-child(7) a {
 
 /*text css*/
 
-h1, h3, .jobTitle{
+h1, h3, h5, .jobTitle{
     font-family: 'Glegoo', serif;
 }
 
@@ -115,6 +115,10 @@ a:hover {
   background-size:100% auto;
   background-repeat: no-repeat;
   padding-top: 1%;
+}
+
+#service{
+
 }
 
 footer img{
