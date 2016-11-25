@@ -77,6 +77,9 @@ p{
     display: inline-block;
 }
 
+footer p{
+    display: block;
+}
 
 /*text links css*/
 
@@ -111,8 +114,8 @@ a:hover {
 .imagesServices{
     border-radius: 50%;
     display: inline;
-    width: 7vw;
-    height: 7vw;
+    width: 5vw;
+    height: 5vw;
 }
 
 #profilePic{
