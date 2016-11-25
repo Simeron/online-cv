@@ -73,6 +73,10 @@ p, li, form{
     padding: 1%;
 }
 
+p{
+    display: inline-block;
+}
+
 
 /*text links css*/
 
@@ -100,6 +104,16 @@ a:hover {
     width: 10%;
     border-radius: 50%;
     display: inline;
+}
+
+#profilePic{
+  display: inline-block;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+   background-position: center;
+    background-size:100% auto;
+    background-repeat: no-repeat;
 }
 
 footer img{
