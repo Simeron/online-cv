@@ -3,7 +3,7 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-/*positioning of primary sections content*/
+/*positioning of primary sections - content*/
 .mainContent{
     width: 100%;
     margin: auto;
@@ -22,7 +22,7 @@
     background: grey;
     padding-top: 1rem;
     padding-bottom: 1rem;
-}
+}   
 
 
  footer{
@@ -30,7 +30,7 @@
     margin: auto;
     text-align: center;
 }
-/*end of postion primary sections content*/
+/*end of postion primary sections - content*/
 
 /*div positioning */
 #about, #aboutImage{
@@ -131,10 +131,12 @@ footer img{
     text-align: center;
 }
 
-#skills ul li{
+.icons ul li{
     list-style: none;
     display: inline;
 }
+
+
 /*start of the media query*/
 
 @media screen and (max-width: 780px) {
