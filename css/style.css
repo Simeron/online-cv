@@ -101,9 +101,11 @@ a:hover {
 }*/
 
 .images{
-    width: 100%;
+    /*width: 100%;*/
     border-radius: 50%;
     display: inline;
+    width: 4vw;
+    height: 4vw;
 }
 
 #profilePic{
