@@ -111,9 +111,10 @@ a:hover {
   width: 350px;
   height: 350px;
   border-radius: 50%;
-   background-position: center;
-    background-size:100% auto;
-    background-repeat: no-repeat;
+  background-position: center;
+  background-size:100% auto;
+  background-repeat: no-repeat;
+  padding-top: 1%;
 }
 
 footer img{
