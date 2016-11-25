@@ -26,7 +26,7 @@
         </nav>-->
 
         <nav>
-            <div class="nav-wrapper">
+            <div class="nav-wrapper" role="navigation">
                 <a href="#!" class="brand-logo">Logo</a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
@@ -51,7 +51,7 @@
         <!--end of nav section-->
 
         <!--parallax scroll attempt -->
-        <div class="parallax-container">
+        <div class="parallax-container" role="banner">
             <div class="parallax"><img src="http://www.planwallpaper.com/static/images/Christmas-Background-Picture-1920-1080-493006.jpeg"></div>
         </div>
          <!--end of parallax scroll effect-->
@@ -77,32 +77,32 @@
             <!--</section>-->
 
             <!--about section - bio, education, and awards sections are here-->
-            <section class="section white">
+            <section class="section white" id="bio" role="about-section">
                 <div class="container">
                     <div class="row">
                         <div class="col s12">
                             <h2 class="header">BIO</h2>
                         </div>
                         <div class="col l6 m12 s12">
-                                <p class="grey-text text-darken-3 lighten-3">
-                                    I have a background in design and have a good knowledge of HTML and CSS. I'm a creative in the design and web industry. I love a challenge. I have experience working as a freelancer while at university, working on internal and external prjects. As a designer I have created company branding, stationary, and physical products. As a web designers I have created various websites in Photoshop. I have also developed websites using CMS systems such as wordpress and used the editor to make additonal changes to meet clients purposes. During various projects I have worked a lot in UX and UI exploring consumer interactions and mocking up various wireframes to using tools such as invision. 
-                                </p>
-                                    <ul>
-                                    <li>Ravensbourne University</li>
-                                    <li>Web Media</li>
-                                    <li>2:1</li>
-                                </ul>
-                            </div>
-                            <div class="col l6 m12 s12">
-                                <img id="profilePic" src="images/IMG_5233.jpg"/>
-                            </div>
+                            <p class="grey-text text-darken-3 lighten-3">
+                                I have a background in design and have a good knowledge of HTML and CSS. I'm a creative in the design and web industry. I love a challenge. I have experience working as a freelancer while at university, working on internal and external prjects. As a designer I have created company branding, stationary, and physical products. As a web designers I have created various websites in Photoshop. I have also developed websites using CMS systems such as wordpress and used the editor to make additonal changes to meet clients purposes. During various projects I have worked a lot in UX and UI exploring consumer interactions and mocking up various wireframes to using tools such as invision. 
+                            </p>
+                            <ul>
+                                <li>Ravensbourne University</li>
+                                <li>Web Media</li>
+                                <li>2:1</li>
+                            </ul>
+                        </div>
+                        <div class="col l6 m12 s12">
+                            <img id="profilePic" src="images/IMG_5233.jpg"/>
                         </div>
                     </div>
+                </div>
             </section>
             <!--end of the about section-->
 
             <!--skils section, I still need to add the rest of my skills refer to sparta cv to rest of skills-->
-            <section class="section white">
+            <section class="section white" id="skills" role="skills-section">
                 <div class="lightBlue">
                     <div class="row container">
                         <h3>Skills</h3>
@@ -164,7 +164,7 @@
             <!--end of the skills-->
 
             <!--what I can do section-->
-            <section class="section white">
+            <section class="section white" id="whatICanDo" role="what-i-can-do-services">
                     <div class="row container">
                          <section id="canDo" role="canDO">
                             <h3>What I can do</h3>
@@ -219,13 +219,13 @@
                                     </p>  
                                 </div>
                             </div>
-                         </section>
+                        </section>
                     </div>
                 </section>
                 <!--end of what I can do section-->
 
                 <!--expereince section -->
-                <section class="section white">
+                <section class="section white" id="experience" role="experience-section">
                     <div class="lightBlue">
                         <div class="row container">
                             <section id="canDo" role="canDO">
@@ -273,49 +273,45 @@
                                 </div>
                                 <p>Download CV</p>
                             </section>
-                            </section>
                         </div>
                     </div>
                 </section>
                 <!--end of experience section-->
 
                 <!--projects section-->
-                <section class="section white">
+                <section class="section white" id="projects" role="projects-section">
                         <div class="row container">
                             <section id="canDo" role="canDO">
-                                <section id="projectsSection" role="projectsSection">
-                                    <h3>Projects</h3>
-                                    <div class="project">
-                                        <p>test</p>
-                                    </div>
+                                <h3>Projects</h3>
+                                <div class="project">
+                                    <p>test</p>
+                                </div>
 
-                                    <div class="project">
-                                        <p>test</p>  
-                                    </div>
+                                <div class="project">
+                                    <p>test</p>  
+                                </div>
 
-                                    <div class="project">
-                                        <p>test</p>
-                                    </div>
+                                <div class="project">
+                                     <p>test</p>
+                                </div>
 
-                                    <div class="project">
-                                        <p>test</p>
-                                    </div>
-                                    <p>Download portfolio</p>
-                                </section>
+                                <div class="project">
+                                    <p>test</p>
+                                </div>
+                                <p>Download portfolio</p>
                             </section>
                         </div>
                     </section>
                     <!--end of prjects section-->
 
                     <!--contact section-->
-                    <section class="section white">
+                    <section class="section white" id="contact" role="contact">
                         <div class="lightBlue">
                             <div class="row container">
                                 <section id="canDo" role="canDO">
-                                    <section id="contact" role="contact">
-                                        <div class="row">
-                                            <div class="col s6">
-                                                <h3>Contact Me</h3>
+                                    <div class="row">
+                                        <div class="col s6">
+                                            <h3>Contact Me</h3>
                                                 <footer role="footer">
                                                     <img src="LinkedIn-52.png"/>
                                                     <img src="GitHub-64.png"/>
@@ -326,36 +322,36 @@
                                             </div>
                                             <div class="col s6">
                                                 <form method="post" action="http://lacedeamon.spartaglobal.com/contactform">
-                                                        <div class="contactForm">
-                                                            <label for"Name">Name:</label> 
-                                                            <input type="text" name="name">
-                                                        </div>
+                                                    <div class="contactForm">
+                                                        <label for"Name">Name:</label> 
+                                                        <input type="text" name="name">
+                                                    </div>
 
-                                                        <div class="contactForm">
-                                                            <label for="email"> Email: </label>
-                                                            <input type="email" name="email">
-                                                        </div>
+                                                    <div class="contactForm">
+                                                        <label for="email"> Email: </label>
+                                                        <input type="email" name="email">
+                                                    </div>
 
                                                         <!--<label for="addressee"> Addressee: </label>-->
                                                         <!--<input type="hidden" name="addressee">-->
 
-                                                        <div class="contactForm">
-                                                            <label for="message"> Message: </label>
-                                                            <input type="text" name="message">
-                                                        </div>
-
-                                                        <div class="contactForm">
-                                                            <input type="submit" value="Save">
-                                                        </div>
-                                                        </form>
+                                                    <div class="contactForm">
+                                                        <label for="message"> Message: </label>
+                                                        <input type="text" name="message">
                                                     </div>
-                                                </div>
+
+                                                    <div class="contactForm">
+                                                        <input type="submit" value="Save">
+                                                    </div>
+                                                </form>
                                             </div>
-                                        </section>
-                                    </section>
-                                </div>
+                                        </div>
+                                </section>
                             </div>
-                        </section>
+                        </div>
+                    </section>
+
+                  
                         <!--end of contact section-->  
                                           
 
