@@ -108,6 +108,13 @@ a:hover {
     height: 7vw;*/
 }
 
+.imagesServices{
+    border-radius: 50%;
+    display: inline;
+    width: 7vw;
+    height: 7vw;
+}
+
 #profilePic{
   display: inline-block;
   width: 350px;
@@ -119,12 +126,6 @@ a:hover {
   padding-top: 1%;
 }
 
-.imagesServices{
-    border-radius: 50%;
-    display: inline;
-    width: 7vw;
-    height: 7vw;
-}
 
 footer img{
     width: 25px;
