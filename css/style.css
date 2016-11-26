@@ -14,6 +14,15 @@
     margin: auto;
 }
 
+.parallax{
+    /*height: 150px;
+    width: 200px;*/
+    background: -webkit-radial-gradient(circle, #ae9aa8, #8e7285, #5E3651); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(circle, #ae9aa8, #8e7285, #5E3651); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(circle, #ae9aa8, #8e7285, #5E3651); /* For Fx 3.6 to 15 */
+    background: radial-gradient(circle, #ae9aa8, #8e7285, #5E3651); /* Standard syntax (must be last) */
+}
+
 .parallax-container {
       height: 500px;
 }
@@ -49,7 +58,7 @@ nav{
     position: fixed;
     width: 100%;
     z-index: 1;
-    background-color: blue;
+    background-color: #5E3651;
 }
 
 nav ul li:nth-child(7) a {
@@ -64,8 +73,14 @@ nav ul li:nth-child(7) a {
 
 /*text css*/
 
-h1, h3, h5, .jobTitle{
+h1, h3, h4, h5, .jobTitle{
     font-family: 'Glegoo', serif;
+}
+
+#headerImage{
+    text-align: center;
+    padding-top: 12%;
+    color: white;
 }
 
 p, li, form{
@@ -133,6 +148,8 @@ a:hover {
 
 footer img{
     width: 25px;
+    float: right;
+    display: block;
 }
 /*end of image css*/
 
