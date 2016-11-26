@@ -73,7 +73,7 @@ nav ul li:nth-child(7) a {
 
 /*text css*/
 
-h1, h3, h4, h5, .jobTitle{
+h1, h2, h3, h4, h5, h6, .jobTitle{
     font-family: 'Glegoo', serif;
 }
 
@@ -259,3 +259,14 @@ footer img{
     transform: scale(1);
   }
 }
+
+
+
+
+
+
+
+
+
+
+
