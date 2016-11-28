@@ -1,15 +1,47 @@
-    $(function(){
-      $('.parallax').parallax();
-    });
+$(function(){
+		$(".button-collapse").sideNav();
 
-     $(".button-collapse").sideNav();
-
-
-
-$(window).on('scroll', function(){
-	$timeline_block.each(function(){
-		if( $(this).offset().top <= $(window).scrollTop()+$(window).height()*0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) {
-			$(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
+		function scrollBanner() {
+  		$(document).scroll(function(){
+				var scrollPos = $(this).scrollTop();
+				$('#banner-text').css({
+					'top' : (scrollPos/3)+'px',
+					'opacity' : 1-(scrollPos/510)
+				});
+				$('#banner').css({
+					'background-position' : 'center ' + (-scrollPos/2)+'px'
+				});
+			});    
 		}
-	});
+		scrollBanner();
+
+		$('#bioLink').click(function (){
+			scrollToElement($('#bio'));
+		});
+
+		$('#projectLink').click(function (){
+			scrollToElement($('#projects'));
+		});
+
+		$('#experienceLink').click(function (){
+		scrollToElement($('#experience'));
+		});
+
+		$('#skillsLink').click(function (){
+			scrollToElement($('#skills'));
+		});
+
+		$('#contactLink').click(function (){
+			scrollToElement($('#contact'));
+		});
+
+		function scrollToElement(element){
+		    $('html,body').animate({
+          scrollTop: element.offset().top - 50
+        }, 1000);
+		}
+
 });
+
+
+

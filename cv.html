@@ -38,17 +38,17 @@
                 <a href="#!" class="brand-logo">Logo</a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#bio">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a id="bioLink" href="#bio">About</a></li>
+                    <li><a id="projectLink" href="#projects">Projects</a></li>
+                    <li><a id="experienceLink" href="#experience">Experience</a></li>
+                    <li><a id="skillsLink" href="#skills">Skills</a></li>
+                    <li><a id="contactLink" href="#contact">Contact</a></li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
-                    <li><a href="#bio">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#skills">Skills</a></li>
+                    <li><a id="moblieBioLink" href="#bio">About</a></li>
+                    <li><a id="mobileProjectsLink" href="#projects">Projects</a></li>
+                    <li><a id="moblieExperinceLink" href="#experience">Experience</a></li>
+                    <li><a id="mobileSkillsLink" href="#skills">Skills</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -57,12 +57,17 @@
         <!--end of nav section-->
 
         <!--parallax scroll attempt -->
-        <div class="parallax-container" role="banner">
+        <!--<div class="parallax-container" role="banner">
             <div class="parallax">
-                <div id="headerImage">
-                    <img src="images/header-images/IMG_4696-edited-small.png">
-                    <h1>{ Simeron Taak }</h1>
-                    <h4>Developer and designer</h4>
+                <img src="images/header-images/IMG_4696-edited-small.png">
+                <h1>{ Simeron Taak }</h1>
+                <h4>Developer and designer</h4>
+            </div>
+        </div>-->
+        <div id="banner">
+            <div class="wrap-center">
+                <div class="banner-centered" id="banner-text">
+                    <h2>{ Simeron Taak } Developer and designer</h2>
                 </div>
             </div>
         </div>
@@ -324,8 +329,8 @@
                                                 <strong>SKILLS USED:</strong> Branding . Photoshop . Illustrator . WordPress . HTML . CSS . UX Skills . Wireframing
                                             </p>
                                     </div>
-                                    <a href="cv2-edit(1).pdf">Download CV</a>
                                 </div>
+                                <a href="cv2-edit(1).pdf">Download CV</a>
                             </section>
                         </section>
                     </div>
@@ -445,13 +450,9 @@
                 </footer>-->
         </section>     
     </body>
-    <script
-        src="https://code.jquery.com/jquery-3.1.1.min.js"
-        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-        crossorigin="anonymous">
-    </script>
-    <script type="text/javascript" src="css/materialize/js/materialize.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script type="text/javascript" src="js/main.js"></script> <!-- Resource jQuery -->
     <script type="text/javascript" src="js.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="vertical-timeline/js/main.js"></script> <!-- Resource jQuery -->
+
 </html>
