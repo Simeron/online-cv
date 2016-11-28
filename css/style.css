@@ -91,6 +91,7 @@ p, li, form{
 
 p{
     display: inline-block;
+    line-height: 150%;
 }
 
 footer p{
