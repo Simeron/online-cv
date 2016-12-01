@@ -35,6 +35,10 @@ $(function(){
 			scrollToElement($('#contact'));
 		});
 
+		$('#whatICanDoLink').click(function (){
+			scrollToElement($('#whatICanDo'));
+		});
+
 		function scrollToElement(element){
 		    $('html,body').animate({
           scrollTop: element.offset().top - 50
