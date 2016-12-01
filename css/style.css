@@ -109,9 +109,9 @@
 }   
 
 
- footer{
-    width: 80%;
-    margin: auto;
+ footer p{
+    /*width: 80%;*/
+    /*margin: auto;*/
     text-align: center;
 }
 /*end of postion primary sections - content*/
@@ -165,7 +165,7 @@ p{
 
 footer p{
     display: block;
-    text-align: right;
+    text-align: center;
 }
 
 /*text links css*/
